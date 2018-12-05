@@ -1,0 +1,193 @@
+#gameCanvas {
+  border-radius: 20px;
+  background-repeat: repeat;
+  position: absolute;
+  width: 800px;
+  height: 800px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+#gameCanvas s {
+    display: none;
+    position: absolute; }
+}
+#cont i{
+  font-size: 18px;
+  padding: 5px; }
+#cont b {
+  font-size: 18px;
+  padding: 5px; }
+#cont select {
+    outline: 0;
+    font-size: 18px;
+    padding: 5px;
+    border: 2px solid;
+    border-radius: 10px; }
+
+#gameCanvas s{
+	position: absolute;
+}
+#gameCanvas div s{
+  background-size: 500% 200%;
+  background-position: -400% 0%;
+}
+#gameCanvas .tail{
+	background-position: 0 -100%;
+}
+#gameCanvas .tailEatten{
+  background-position: -300% 0%;
+}
+#gameCanvas .turn{
+	background-position: 0 0;
+}
+#gameCanvas .turnFull{
+	background-position: -100% -100%;
+}
+#gameCanvas .body{
+	background-position: -100% 0;
+}
+#gameCanvas .bodyFull{
+	background-position: -200% -100%;
+}
+#gameCanvas .mouth{
+	background-position: -200% 0;
+}
+#gameCanvas .mouthOpen{
+	background-position: -300% -100%;
+}
+#gameCanvas #food s{
+  background-size: 300% 200%;
+}
+#gameCanvas #food .f1{
+  background-position: 0% 0%;
+}
+#gameCanvas #food .f2{
+  background-position: -100% 0%;
+}
+#gameCanvas #food .f3{
+  background-position: -200% 0%;
+}
+#gameCanvas #food .f4{
+  background-position: 0% -100%;
+}
+#gameCanvas #food .f5{
+  background-position: -100% -100%;
+}
+#gameCanvas #food .f6{
+  background-position: -200% -100%;
+}
+#gameCanvas .wall{
+  background-size: 100% 100%;
+}
+/*
+	Themes
+*/
+.theme1{
+  background-color: #a4e700;
+  color: #253e05;
+}
+.theme1 #cont{
+  background-color: #a4e700;
+  color: #253e05;
+}
+.theme1 #cont i{
+  color: #253e05;
+}
+.theme1 #cont b{
+  color: #253e05;
+}
+.theme1 #cont select{
+  background-color: #a4e700;
+  color: #253e05;
+  border-color: #253e05;
+}
+.theme1 #gameCanvas{
+  background-color: #a4e700;
+  border: #253e05 4px solid;
+}
+.theme1 #gameCanvas .snake1 s{
+	background-image: url("../img/gameThemes/theme1/snake1.png");
+}
+.theme1 #gameCanvas .snake2 s{
+  background-image: url("../img/gameThemes/theme1/snake2.png");
+}
+.theme1 #gameCanvas .snake3 s{
+  background-image: url("../img/gameThemes/theme1/snake3.png");
+}
+.theme1 #gameCanvas .snake4 s{
+  background-image: url("../img/gameThemes/theme1/snake4.png");
+}
+.theme1 #gameCanvas .snake5 s{
+  background-image: url("../img/gameThemes/theme1/snake5.png");
+}
+.theme1 #gameCanvas .snake6 s{
+  background-image: url("../img/gameThemes/theme1/snake6.png");
+}
+.theme1 #gameCanvas .snake7 s{
+  background-image: url("../img/gameThemes/theme1/snake7.png");
+}
+.theme1 #gameCanvas .snake8 s{
+  background-image: url("../img/gameThemes/theme1/snake8.png");
+}
+.theme1 #gameCanvas #food s{
+  background-image: url("../img/gameThemes/theme1/foods.png");
+}
+.theme1 #gameCanvas #wall s{
+  background-image: url("../img/gameThemes/theme1/wall.png");
+}
+/*
+	Themes
+*/
+.theme2{
+  background-color: #232323;
+  color: #fbffb5;
+}
+.theme2 #cont{
+  background-color: #232323;
+  color: #fbffb5;
+}
+.theme2 #cont i{
+  color: #fbffb5;
+}
+.theme2 #cont b{
+  color: #fbffb5;
+}
+.theme2 #cont select{
+  background-color: #232323;
+  color: #fbffb5;
+  border-color: #fbffb5;
+}
+.theme2 #gameCanvas{
+  background-color: #fbffb5;
+  border: #fbffb5 4px solid;
+}
+.theme2 #gameCanvas .snake1 s{
+  background-image: url("../img/gameThemes/theme2/snake1.png");
+}
+.theme2 #gameCanvas .snake2 s{
+  background-image: url("../img/gameThemes/theme2/snake2.png");
+}
+.theme2 #gameCanvas .snake3 s{
+  background-image: url("../img/gameThemes/theme2/snake3.png");
+}
+.theme2 #gameCanvas .snake4 s{
+  background-image: url("../img/gameThemes/theme2/snake4.png");
+}
+.theme2 #gameCanvas .snake5 s{
+  background-image: url("../img/gameThemes/theme2/snake5.png");
+}
+.theme2 #gameCanvas .snake6 s{
+  background-image: url("../img/gameThemes/theme2/snake6.png");
+}
+.theme2 #gameCanvas .snake7 s{
+  background-image: url("../img/gameThemes/theme2/snake7.png");
+}
+.theme2 #gameCanvas .snake8 s{
+  background-image: url("../img/gameThemes/theme2/snake8.png");
+}
+.theme2 #gameCanvas #food s{
+  background-image: url("../img/gameThemes/theme2/foods.png");
+}
+.theme2 #gameCanvas #wall s{
+  background-image: url("../img/gameThemes/theme2/wall.png");
+}

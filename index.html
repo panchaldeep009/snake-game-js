@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/style.css"/>
+    
+    <title>Snake Game</title>
+  </head>
+  <body>
+    <div id="gameCanvas">
+      <div id="food"></div>
+      <div id="wall"></div>
+    </div>
+    <div id="cont">
+      <i>Space : Play/Puse, Arrow Keys: Move Snake</i>
+      <b>Players : </b>
+      <select id="players" onchange="changePlayers()">
+        <option value="1">1</option>
+        <option value="2" selected>2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+      </select>
+      <b>SPEED : </b>
+      <select id="speed" onchange="changeSpeed()">
+        <option value="1">x1</option>
+        <option value="2" selected>x2</option>
+        <option value="3">x3</option>
+        <option value="4">x4</option>
+        <option value="5">x5</option>
+        <option value="6">x6</option>
+        <option value="7">x7</option>
+      </select>
+      <b> Level : </b>
+      <select id="level" onchange="changeLevel()">
+        <option value="0" selected>1</option>
+        <option value="1">2</option>
+        <option value="2">3</option>
+        <option value="3">4</option>
+        <option value="4">5</option>
+        <option value="5">6</option>
+        <option value="6">7</option>
+        <option value="7">8</option>
+      </select>
+      <b> Theme : </b>
+      <select id="theme" onchange="changeTheme()">
+        <option value="1">Nokia Snake</option>
+        <option value="2" selected>Graphical</option>
+      </select>
+      <b id="update"></b>
+    </div>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
